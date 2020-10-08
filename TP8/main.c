@@ -16,10 +16,11 @@
 /*
  * 
  */
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
 {
+
     char a = 'h';
-    void *p;
+    char *p;
     p = &a;
     printf("a: %c\n", *p);
     return 0;
